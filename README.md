@@ -1,12 +1,17 @@
-# React + Vite
+# React Role-Based Registration Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Features
 
-Currently, two official plugins are available:
+1. React + react-hook-form
+2. Conditional fields for Driver, Customer, and Manager
+3. Driving license photo upload (Driver role only)
+4. Submitted data is logged to the browser console
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# To Run This Code
 
-## Expanding the ESLint configuration
+1. Download the ZIP file & extract it
+2. Rename the folder to something like `register-form`
+3. Open terminal in that folder and run:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+npm install
+npm run dev
